@@ -29,3 +29,21 @@ npm run develop
 ```
 
 Al ejecutar el ultimo comando, se abre una pestaña en el navegador para que crees una cuenta de administradr y poder ingresar al Dashboard inicial de Strapi.
+
+Luego de crear la cuenta de administrador, puedes visualizar la colleccion creada para los usuarios:
+![image](https://user-images.githubusercontent.com/78056280/187280243-e623f9e8-d92f-4ee7-bcb9-83179f2841ab.png)
+
+### IMPORTANTE
+Debes habilitar la API para poder acceder a esta publicamente, para eso realiza los siguientes pasos:
+- Ve a la configuracion de Strapi.
+![image](https://user-images.githubusercontent.com/78056280/187280501-35f27b95-697c-4c6d-bbd7-29164b89a6de.png)
+
+- Luego a Roles > Public
+![image](https://user-images.githubusercontent.com/78056280/187280564-dde0eb7e-60e0-47d1-b0eb-7c04679dc9a2.png)
+
+- Luego a V2-user y selecciona todos los EndPoints.
+![image](https://user-images.githubusercontent.com/78056280/187280660-656a7918-d39e-493b-9694-81586229db32.png)
+
+- Guarda los cambios y sigue con la parte del [FrontEnd](https://github.com/camilojimenez19/crud-users-frontend)
+
+
