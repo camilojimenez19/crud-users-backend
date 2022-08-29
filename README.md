@@ -1,57 +1,31 @@
-# 🚀 Getting started with Strapi
+# Hola Dev 👋, soy Camilo Jimenez un FullStack Developer
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
+> Este proyecto fue creado con  [Create React App](https://github.com/facebook/create-react-app).
 
-### `develop`
+Este proyecto se ha realizado para presentar la prueba técnica para una empresa en Colombia para el puesto de desarrollador FullStack, la cual pedía lo siguiente:
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
+> ## Test de habilidades | Construir un BackEnd libre: 
+> Crear un CRUD (Create, Read, Update, Delete) acerca de usuarios.
+Cada usuario tiene un nombre, fecha de nacimiento, numero de identificacion (debe ser un
+numero no string).
+> - Deben estar las 4 operaciones (Crear, Leer, Actualizar, Eliminar).
+> - Las operaciones deben usar el verbo apropiado para cada request (GET, POST, DELETE,
+PATCH).
+> - El backend puede usar strapi (facil y rapido) o puede usar un servidor en nodejs.
+
+
+## Para ejecutar el proyecto
+
+Después de clonar el proyecto debes ejecutar los siguientes comandos para ejecutar correctamente el proyecto.
+
+
+Debes copiar y pegar el contenido del archivo de **.env.example** y pegarlo en un nuevo archivo llamado **.env** (En la raíz del proyecto).
+> IMPORTANTE: No es necesario que cambies los datos que contiene el archivo **.env**
+Después ejecuta los siguientes comandos para ejecutar el proyecto.
 
 ```
+npm install
 npm run develop
-# or
-yarn develop
 ```
 
-### `start`
-
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-start)
-
-```
-npm run start
-# or
-yarn start
-```
-
-### `build`
-
-Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
-
-```
-npm run build
-# or
-yarn build
-```
-
-## ⚙️ Deployment
-
-Strapi gives you many possible deployment options for your project. Find the one that suits you on the [deployment section of the documentation](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html).
-
-## 📚 Learn more
-
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://docs.strapi.io) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+Al ejecutar el ultimo comando, se abre una pestaña en el navegador para que crees una cuenta de administradr y poder ingresar al Dashboard inicial de Strapi.
