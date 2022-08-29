@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "v2_users",
+  "info": {
+    "singularName": "v2-user",
+    "pluralName": "v2-users",
+    "displayName": "V2 Users"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "dateBirth": {
+      "type": "date",
+      "required": true
+    },
+    "idNumber": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}
